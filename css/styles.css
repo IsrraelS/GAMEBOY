@@ -1,0 +1,38 @@
+body {
+    background-color: tomato;
+}
+
+.contenedor {
+    height: 40em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chasis {
+    height: 33em;
+    width: 22em;
+    background-color:gold;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px 5px 60px 5px;
+}
+
+.contPantalla {
+    height: 15em;
+    width: 20em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: gray;
+    border-radius: 2px 2px 40px 2px;
+    margin: 1em;
+}
+
+.pantalla {
+    height: 10em;
+    width: 10em;
+    display: flex;
+    background-color: sienna;
+}
