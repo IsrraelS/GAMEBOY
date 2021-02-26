@@ -1,38 +1,155 @@
 body {
     background-color: tomato;
+    display: flex;
+    justify-content: center;
 }
 
 .contenedor {
-    height: 40em;
+    height: 37em;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .chasis {
-    height: 33em;
+    height: 34em;
     width: 22em;
     background-color:gold;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    border: 0.5px solid;
+    box-shadow: 5px 10px 8px rgba(0, 0, 0, 0.699);
     border-radius: 5px 5px 60px 5px;
 }
 
 .contPantalla {
-    height: 15em;
+    height: 16em;
     width: 20em;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
     background-color: gray;
+    border: 0.4px solid black;
     border-radius: 2px 2px 40px 2px;
     margin: 1em;
+    margin-top: 1.5em;
 }
 
 .pantalla {
-    height: 10em;
-    width: 10em;
+    height: 12.5em;
+    width: 16em;
+    margin-top: -0.7em;
     display: flex;
-    background-color: sienna;
+    background-color: rgb(106, 126, 106);
+    box-shadow: 2px 4px 2px 0.5px inset;
+}
+
+.contBotones{
+    width: 22em;
+    height: 7.2em;
+    /*border: 0.5px solid black;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1.7em;
+}
+
+.botonDireccion{
+    width: 9.8em;
+    height: 7.2em;
+    /*border: 0.1px solid black;*/
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+    align-items: center;
+    
+}
+
+.btnFila1{
+    width: 7.5em;
+    height: 2.4em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.botUp {
+    height: 2.25em;
+    width: 2.25em;
+    background-color: lightslategrey;
+    box-shadow: 0.5px 0.5px 0px 0.5px solid black;
+}
+
+.btnFila2{
+    width: 7.5em;
+    height: 2.4em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.botLeft {
+    height: 2.25em;
+    width: 2.25em;
+    background-color: lightslategrey;
+}
+
+.botCentral {
+    height: 2.25em;
+    width: 2.25em;
+    background-color: lightslategrey;
+    border-radius: 1.5em;
+}
+
+.botRigth{
+    height: 2.25em;
+    width: 2.25em;
+    background-color: lightslategrey;
+}
+
+.btnFila3{
+    width: 7.5em;
+    height: 2.4em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.botDown{
+    height: 2.25em;
+    width: 2.25em;
+    background-color: lightslategrey;
+
+}
+
+.botonAB{
+    width: 12em;
+    height: 7.2em;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    /*background-color:indianred;*/
+}
+
+
+
+.btnA{
+    height: 3.7em;
+    width: 3.7em;
+    background-color:indianred;
+    border-radius: 2em;
+    margin-top: 1.25em;
+}
+
+
+
+.btnB{
+    height: 3.7em;
+    width: 3.7em;
+    background-color:indianred;
+    border-radius: 2em;
+    margin-bottom: 1.25em;
 }
