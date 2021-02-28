@@ -180,6 +180,11 @@ body {
     justify-content: space-around;
 }
 
+    .btnFila1 :hover{
+        background-color:rgb(50, 50, 50);
+        box-shadow: 1px 1px 1px 1px inset black;
+    }
+
 .botUp {
     height: 2em;
     width: 2em;
@@ -200,6 +205,11 @@ body {
     border-radius: 7px;
 }
 
+    .btnFila2 :hover{
+        background-color:rgb(50, 50, 50);
+        box-shadow: 1px 1px 1px 1px inset black;
+    }
+
 .botLeft {
     height: 2em;
     width: 2em;
@@ -213,8 +223,9 @@ body {
     height: 2em;
     width: 2em;
     background-color:  rgb(30, 30, 30);
-    border: 0.5px solid  rgb(50, 50, 50);
+    border: 1px solid  rgb(50, 50, 50);
     border-radius: 1.5em;
+    margin-top: -2px;
 }
 
 .botRigth {
@@ -234,6 +245,11 @@ body {
     justify-content: space-around;
 }
 
+    .btnFila3 :hover{
+        background-color:rgb(50, 50, 50);
+        box-shadow: 1px 1px 1px 1px inset black;
+    }
+
 .botDown {
     height: 2em;
     width: 2em;
@@ -241,9 +257,10 @@ body {
     border: 0.5px solid black;
     border-top-color:  rgb(30, 30, 30);
     border-radius: 0px 0px 6px 6px;
+    margin-top: 0px;
 
 }
-/*Botonea A/B*/
+/*Botones A/B */
 .botonAB {
     width: 12em;
     height: 7.2em;
@@ -251,8 +268,14 @@ body {
     flex-direction: row;
     justify-content:space-evenly;
     align-items: end;
+    margin-right: -14px;
     /*background-color: green;*/
 }
+
+    .botonAB :hover{
+        background-color:brown;
+        box-shadow: 1px 1px 1px 1px inset black;
+    }
 
 .btnB {
     height: 2.5em;
@@ -261,8 +284,11 @@ body {
     border: 0.5px solid black;
     border-radius: 2em;
     margin-top: 2em;
-    margin-right: -0.8em;
+    margin-right: -1.5em;
+    display: inherit;
+    justify-content: center;
 }
+
 
 .btnA {
     height: 2.5em;
@@ -271,6 +297,8 @@ body {
     border: 0.5px solid black;
     border-radius: 2em;
     margin-bottom: 2em;
+    display: inherit;
+    justify-content: center;
 }
 
 .btnGame{
@@ -278,7 +306,7 @@ body {
     font-size: 18px;
     color: midnightblue;
     text-align: center;
-    margin-top: 42px;
+    margin-top: 45px;
     
 }
 
@@ -302,6 +330,11 @@ body {
     margin-top: 0em;
 }
 
+.contSlcStr :hover{
+    background-color:darkgrey;
+    box-shadow: 1px 1px 1px 1px inset black;
+}
+
 .contSelect {
     width: 2.5em;
     height: 0.75em;
@@ -310,6 +343,7 @@ body {
     text-align: center;
     background-color: darkgray;
     border-radius: 7px;
+    display: inherit;
 }
 
 .contStart {
@@ -320,6 +354,7 @@ body {
     text-align: center;
     background-color: darkgray;
     border-radius: 7px;
+    display: inherit;
 }
 
 .textSS {
@@ -334,5 +369,30 @@ body {
 .contRejilla{
     width: 6em;
     height: 6.5em;
-    border: 0.2px solid black;
+    /*border: 0.2px solid black;*/
 }
+
+.rejilla{
+    width: 5em;
+    height: 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-top: 10px;
+    /*border: 0.5px solid black;*/
+}
+
+.rjlPointE {
+    margin: 0px;
+    letter-spacing: 6px;
+    margin-top: -6px;
+    text-align: end;
+    
+}
+
+.rjlPoint {
+    margin: 0px;
+    letter-spacing: 6px;
+    margin-top: -6px;
+}
+
