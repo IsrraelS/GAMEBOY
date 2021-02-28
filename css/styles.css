@@ -12,7 +12,7 @@ body {
 }
 
 .chasis {
-    height: 34em;
+    height: 35em;
     width: 22em;
     background-color:gold;
     display: flex;
@@ -23,7 +23,7 @@ body {
     border-radius: 10px 10px 60px 10px;
 }
 
-/* estilos On OFF */
+/* estilos On/OFF */
 .contOnOff {
     width: 22em;
     height: 1.4em;
@@ -38,22 +38,26 @@ body {
 }
 
 .textOn {
-    margin: 0em 0em 0em 1em;
+    margin: -1em 0em 0em 1em;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 12px;
     color: rgba(0, 0, 0, 0.2);
 }
 
 .textOff {
-    margin: 0em 0em 0em 1.5em;
+    margin: -1em 0em 0em 1.5em;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 12px;
     color: rgba(0, 0, 0, 0.2);
 }
 
+.point {
+    font-size: x-large;
+}
+
 /*estilo Pantalla*/
 .contPantalla {
-    height: 15.5em;
+    height: 25.5em;
     width: 20em;
     display: flex;
     justify-content: space-between;
@@ -67,7 +71,7 @@ body {
 }
 
 .pantalla {
-    height: 12.2em;
+    height: 13.5em;
     width: 16.1em;
     margin-top: 1.2em;
     display: flex;
@@ -125,18 +129,24 @@ body {
 }
 
 .logoNintendo {
-    width: 5em;
+    width: 6.1em;
     height: 1.2em;
-    border: 3.5px ridge rgba(0, 0, 0, 0.2);
+    border: 3.3px solid rgba(0, 0, 0, 0.2);
     border-radius: 40px;
 }
 
 .textNintendo {
     text-align: center;
-    margin-top: -2px;
+    margin-top: -1px;
     color: rgba(0, 0, 0, 0.2);
     font-family: sans-serif;
-    font-size: 18px;    
+    font-size: 17px; 
+    letter-spacing: 1px;   
+}
+
+.rR {
+    font-size: 10px;
+
 }
 
 /*estilos botones de juego*/
@@ -150,6 +160,7 @@ body {
     margin-top: 0.5em;
 }
 
+/*botones de Direccion*/
 .botonDireccion {
     width: 9.8em;
     height: 7.2em;
@@ -158,20 +169,20 @@ body {
     flex-direction: column;
     /*justify-content: center;*/
     align-items: center;
-
+    margin-top: 0.2em;
 }
 
 .btnFila1 {
-    width: 7.5em;
-    height: 2.4em;
+    width: 6em;
+    height: 2em;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
 .botUp {
-    height: 2.25em;
-    width: 2.25em;
+    height: 2em;
+    width: 2em;
     background-color: rgb(30, 30, 30);
     border:0.5px solid black;
     border-bottom-color:  rgb(30, 30, 30);
@@ -180,8 +191,8 @@ body {
 }
 
 .btnFila2 {
-    width: 7.1em;
-    height: 2.4em;
+    width: 6em;
+    height: 2em;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -190,8 +201,8 @@ body {
 }
 
 .botLeft {
-    height: 2.25em;
-    width: 2.25em;
+    height: 2em;
+    width: 2em;
     background-color: rgb(30, 30, 30);
     border: 0.5px solid black;
     border-right-color: rgb(30, 30, 30);;
@@ -199,16 +210,16 @@ body {
 }
 
 .botCentral {
-    height: 2.25em;
-    width: 2.25em;
+    height: 2em;
+    width: 2em;
     background-color:  rgb(30, 30, 30);
     border: 0.5px solid  rgb(50, 50, 50);
     border-radius: 1.5em;
 }
 
 .botRigth {
-    height: 2.25em;
-    width: 2.25em;
+    height: 2em;
+    width: 2em;
     background-color:  rgb(30, 30, 30);
     border: 0.5px solid black;
     border-left-color:  rgb(30, 30, 30);
@@ -216,47 +227,112 @@ body {
 }
 
 .btnFila3 { 
-    width: 7.5em;
-    height: 2.4em;
+    width: 6em;
+    height: 2em;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
 .botDown {
-    height: 2.25em;
-    width: 2.25em;
+    height: 2em;
+    width: 2em;
     background-color:  rgb(30, 30, 30);
     border: 0.5px solid black;
     border-top-color:  rgb(30, 30, 30);
     border-radius: 0px 0px 6px 6px;
 
 }
-
+/*Botonea A/B*/
 .botonAB {
     width: 12em;
     height: 7.2em;
     display: flex;
     flex-direction: row;
     justify-content:space-evenly;
-    align-items: center;
+    align-items: end;
     /*background-color: green;*/
 }
 
-.btnA {
-    height: 3.7em;
-    width: 3.7em;
+.btnB {
+    height: 2.5em;
+    width: 2.5em;
     background-color:indianred;
     border: 0.5px solid black;
     border-radius: 2em;
-    margin-top: 1.7em;
+    margin-top: 2em;
+    margin-right: -0.8em;
 }
 
-.btnB {
-    height: 3.7em;
-    width: 3.7em;
+.btnA {
+    height: 2.5em;
+    width: 2.5em;
     background-color:indianred;
     border: 0.5px solid black;
     border-radius: 2em;
-    margin-bottom: 1.7em;
+    margin-bottom: 2em;
+}
+
+.btnGame{
+    font-family: sans-serif;
+    font-size: 18px;
+    color: midnightblue;
+    text-align: center;
+    margin-top: 42px;
+    
+}
+
+/*estilos botones Select/Start y rejilla*/
+
+.contSSR{
+    width: 22em;
+    height: 6.5em;
+    /*border: 0.5px solid black;*/
+    display: flex;
+    flex-direction: row;
+}
+
+.contSlcStr {
+    width: 16.5em;
+    height: 6.5em;
+    /*border: 0.2px solid black;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 0em;
+}
+
+.contSelect {
+    width: 2.5em;
+    height: 0.75em;
+    border: 0.5px solid black;
+    margin: 0.5em 1.5em 0em 0em;
+    text-align: center;
+    background-color: darkgray;
+    border-radius: 7px;
+}
+
+.contStart {
+    width: 2.5em;
+    height: 0.75em;
+    border: 0.5px solid black;
+    margin: 0.5em 2em 0em 0em;
+    text-align: center;
+    background-color: darkgray;
+    border-radius: 7px;
+}
+
+.textSS {
+    font-family: sans-serif;
+    font-size: 10px;
+    padding: 0px;
+    margin-top: 15px;
+    color: midnightblue;
+    text-align: center;
+}
+
+.contRejilla{
+    width: 6em;
+    height: 6.5em;
+    border: 0.2px solid black;
 }
