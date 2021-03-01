@@ -76,7 +76,7 @@ body {
     margin-top: 1.2em;
     display: flex;
     background-color: rgb(106, 126, 106);
-    border: 0.1px solid rgba(0, 0, 0, 0.74);
+    border: 0.1px solid rgba(0, 0, 0, 0.603);
     border-radius: 2px;
     box-shadow: 1px 3.5px 1px 3px inset;
     justify-content: center;
@@ -88,8 +88,7 @@ body {
     width: 12em;
     border: 3px solid rgb(106, 126, 106);
     border-radius: 20px 20px 20px 20px;
-    color:rgb(106, 126, 106)
-
+    color:rgb(106, 126, 106);
 }
 
 .textNtdOn{
@@ -100,13 +99,13 @@ body {
     margin: 0px;
 }
 
-.pantalla > .nintendoOn :hover{
-    font-family: sans-serif;
-    color: black;
-    border: 3px solid black;
-    border-radius: 20px 20px 20px 20px;
-    transition: 3s;
-}
+    .pantalla > .nintendoOn :hover{
+        font-family: sans-serif;
+        color: black;
+        border: 3px solid black;
+        border-radius: 20px 20px 20px 20px;
+        transition: 3s;
+    }
 
 /*estilos logoPocket */
 .logoPocket {
@@ -386,9 +385,9 @@ body {
 
 .textSS {
     font-family: sans-serif;
-    font-size: 10px;
+    font-size: 12px;
     padding: 0px;
-    margin-top: 15px;
+    margin-top: 20px;
     color: midnightblue;
     text-align: center;
 }
