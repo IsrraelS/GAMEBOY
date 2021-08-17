@@ -1,5 +1,7 @@
 # GAMEBOY
 
+![imagen de la GameBoy Maquetada](https://github.com/IsrraelS/GAMEBOY/blob/master/img/capture.png)
+
 Maquetacion de una videoconsola usando HTML y atributos de CSS.
 _______________________________________________________________________
 
