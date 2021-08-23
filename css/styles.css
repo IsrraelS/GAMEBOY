@@ -5,14 +5,15 @@ body {
 }
 
 .contenedor {
-    height: 37em;
+    /*height: 37em;*/
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 20px;
 }
 
 .chasis {
-    height: 35em;
+    /*height: 35em;*/
     width: 22em;
     background-color:gold;
     display: flex;
@@ -57,7 +58,7 @@ body {
 
 /*estilo Pantalla*/
 .contPantalla {
-    height: 25.5em;
+    height: 17.1em;
     width: 20em;
     display: flex;
     justify-content: space-between;
